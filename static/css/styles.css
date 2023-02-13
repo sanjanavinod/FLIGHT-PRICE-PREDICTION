@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body {
+    /* background-color: #ba0c8b; */
+    text-align: center;
+    background-image: url(https://wallpaperaccess.com/full/1287373.jpg);
+    background-size: 1710px 800px;
+}
+
+.navbar {
+    background-color: rgba(203, 105, 35, 0.77);
+}
+
+a {
+    color: #f1f9f9;
+}
+
+a:hover {
+    color: #000000;
+  }
+
+
+.container-fluid{
+    padding: 10px;
+}
+
+.row{
+    flex-wrap: nowrap;
+    margin-left: -70px;
+}
+
+.date{
+    block-size: 20px;
+    margin-left: -5px;
+    width: 190px;
+    
+}
+
+.date1{
+    block-size: 20px;
+    margin-left: -15px;
+    width: 190px;
+}
+
+.form{
+    display: inline-block;
+}
+
+.card-title{
+    display: inline-block;
+    align-content: center;
+    /* font-family: cursive; */
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.card{
+    padding-right: 20px;
+    background-color: rgba(174, 225, 22, 0.1);
+}
+
+.prediction_text{
+    font-family: cursive;
+}
+
+.btn-secondary{
+    background-color: #c1601bf5;
+    font-size: 25px;
+}
